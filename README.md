@@ -16,6 +16,6 @@ add the commands to package.json
 "start": "node dist/app.js",
 "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/app.js\""
 
-connection_string = "mongodb+srv://naveen:HMQXzpdmkSIM3PnC@nodeexpressprojects.vcj52ag.mongodb.net/store-api?retryWrites=true&w=majority"
+connection_string = "mongodb+srv://naveen:secrete@nodeexpressprojects.vcj52ag.mongodb.net/store-api?retryWrites=true&w=majority"
 
 npm run dev
